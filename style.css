@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.instant_chat {
+    height: 575px;
+    width: 375px;
+    border-radius: 15px;
+    margin:  30px auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    overflow: hidden;
+}
+
+.Profil {
+    display: flex;
+}
+
+.head_chat {
+    border-radius: 15px 15px 0 0;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-items: center;
+    background: linear-gradient(135deg, rgb(42, 39, 218) 0%, rgb(0, 204, 255) 100%);
+}
+
+.PP_container {
+    width: 60px;
+    height: 60px;
+    background-image: url(img/wallhaven-q6dyr7\ \(1\).png);
+    background-size: cover;
+    background-position: -28px;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+h1 {
+    font-size: 1.5em;
+    margin-top: 15px;
+    font-family: sans-serif;
+    color: #FFFF;
+}
+
+.hey_hand {
+    margin-top: 5px;
+    width: 40px;
+    height: 40px;
+}
+
+.options {
+    display: flex;
+    justify-content: space-around;
+    width: 100px;
+    color: #FFFF;
+    font-size: 1.2em;
+}
+
+/* ------------------------top-chat------------------------- */
+
+.sous_head {
+    background: linear-gradient(135deg, rgb(42, 39, 218) 0%, rgb(0, 204, 255) 100%);
+    position: relative;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.sous_image_head {
+    position: absolute;
+    top: 35px;
+    left: -1px;
+}
+
+.green_cercle {
+    width: 8px;
+    height: 8px;
+    background: rgb(88, 183, 67);
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+h3 {
+    font-family: sans-serif;
+    color: #FFFF;
+    font-weight: 300;
+}
+
+.option {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5px;
+    height: 5px;
+}
+
+.option:hover {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #147CED;
+}
